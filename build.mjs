@@ -174,7 +174,7 @@ layout({
   <div class="wrap hero-grid">
     <div>
       <p class="eyebrow">Dallas · Fort Worth · Texas · Arkansas · Oklahoma</p>
-      <h1>Bulk rock, sand, soil &amp; mulch — delivered.</h1>
+      <h1>Bulk rock, sand, soil &amp; mulch - delivered.</h1>
       <p class="lead">The Rock Guy TX supplies contractors, landscapers and homeowners with premium crushed limestone, gravel, fill, topsoil, mulch and compost at bulk pricing.</p>
       <p class="actions"><a class="btn btn-lg" href="/quote/">Get a Free Quote</a> <a class="btn btn-ghost btn-lg" href="tel:${site.phoneIntl}">Call ${site.phone}</a></p>
       <ul class="ticks"><li>Bulk pricing</li><li>High-quality material</li><li>DFW &amp; statewide delivery</li><li>Fort Worth pit now open</li></ul>
@@ -251,7 +251,7 @@ for (const p of products) {
   ];
   layout({
     path: `/products/${p.slug}/`,
-    title: `${p.name} — Bulk Delivery in Dallas–Fort Worth, TX | The Rock Guy TX`,
+    title: `${p.name} - Bulk Delivery in Dallas–Fort Worth, TX | The Rock Guy TX`,
     desc: `${p.summary} Buy ${p.name.toLowerCase()} in bulk with delivery across Texas, Arkansas and Oklahoma. Request a free quote.`,
     trail: [['Home', '/'], ['Products', '/products/'], [p.name, `/products/${p.slug}/`]],
     ogType: 'product',
@@ -321,7 +321,7 @@ layout({
     <input type="hidden" name="form-name" value="quote">
     <p class="hp"><label>Do not fill <input name="bot-field"></label></p>
     <fieldset><legend>Material</legend>
-      <label>Material <select name="material" id="material" required><option value="">Choose…</option>${categories.map((c) => `<optgroup label="${c.name}">${products.filter((p) => p.category === c.slug).map((p) => `<option>${esc(p.name)}</option>`).join('')}</optgroup>`).join('')}<option>Not sure — need advice</option></select></label>
+      <label>Material <select name="material" id="material" required><option value="">Choose…</option>${categories.map((c) => `<optgroup label="${c.name}">${products.filter((p) => p.category === c.slug).map((p) => `<option>${esc(p.name)}</option>`).join('')}</optgroup>`).join('')}<option>Not sure - need advice</option></select></label>
       <div class="row"><label>Quantity <input name="quantity" type="number" min="0" step="any" inputmode="decimal" required></label>
       <label>Unit <select name="unit"><option>Tons</option><option>Cubic yards</option><option>Loads</option><option>Not sure</option></select></label></div>
       <label>Project type <select name="project"><option>Driveway / road</option><option>Pad site / construction</option><option>Landscaping</option><option>Drainage</option><option>Fill / grading</option><option>Other</option></select></label>
@@ -355,7 +355,7 @@ layout({
 });
 
 // ---------- thank you ----------
-layout({ path: '/thank-you/', title: 'Thank you | The Rock Guy TX', desc: 'Your request was received.', robots: 'noindex,follow', body: `<section class="page-head"><div class="wrap narrow"><h1>Thanks — we got it.</h1><p class="lead">A team member will contact you shortly with your quote. Need it sooner? Call <a href="tel:${site.phoneIntl}">${site.phone}</a>.</p><p><a class="btn" href="/">Back to home</a></p></div></section>` });
+layout({ path: '/thank-you/', title: 'Thank you | The Rock Guy TX', desc: 'Your request was received.', robots: 'noindex,follow', body: `<section class="page-head"><div class="wrap narrow"><h1>Thanks - we got it.</h1><p class="lead">A team member will contact you shortly with your quote. Need it sooner? Call <a href="tel:${site.phoneIntl}">${site.phone}</a>.</p><p><a class="btn" href="/">Back to home</a></p></div></section>` });
 
 // ---------- about ----------
 layout({

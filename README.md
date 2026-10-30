@@ -1,4 +1,4 @@
-# The Rock Guy TX — Website
+# The Rock Guy TX - Website
 
 Fast, mobile-first marketing and quote-request website for **The Rock Guy TX**, a Dallas-based bulk aggregate supplier (crushed limestone, gravel, sand, soil, mulch and compost) serving **Texas, Arkansas and Oklahoma**.
 
@@ -48,11 +48,11 @@ node serve.mjs     # preview at http://localhost:4173
 
 Without the CMS: edit the JSON files in `data/`, then rebuild.
 
-- `data/site.json` — name, phone, email, address, hours, social links, top banner
-- `data/products.json` — categories and products
-- `data/areas.json` — cities and regions served
-- `data/faqs.json` — frequently asked questions
-- `data/specials.json` — specials (add `"expires": "YYYY-MM-DD"` to hide an offer automatically)
+- `data/site.json` - name, phone, email, address, hours, social links, top banner
+- `data/products.json` - categories and products
+- `data/areas.json` - cities and regions served
+- `data/faqs.json` - frequently asked questions
+- `data/specials.json` - specials (add `"expires": "YYYY-MM-DD"` to hide an offer automatically)
 
 With the CMS: log in at `/admin/` after enabling Netlify Identity and Git Gateway.
 
