@@ -1,0 +1,32 @@
+{
+  "name": "The Rock Guy TX",
+  "shortName": "TRG TX",
+  "domain": "https://therockguytx.com",
+  "tagline": "Bulk aggregate, soil, mulch & compost for contractors and landscapers.",
+  "phone": "817-454-5779",
+  "phoneIntl": "+18174545779",
+  "email": "Sales@TheRockGuyTx.com",
+  "address": {
+    "street": "1209 E Levee St",
+    "city": "Dallas",
+    "state": "TX",
+    "zip": "75207"
+  },
+  "geo": {
+    "lat": 32.7878,
+    "lng": -96.8066
+  },
+  "hours": "Open 24/7 for quote requests. Call or text for yard and delivery scheduling.",
+  "social": {
+    "instagram": "https://www.instagram.com/trgtx2026/",
+    "facebook": "https://www.facebook.com/profile.php?id=61594079309431"
+  },
+  "announcement": "GRAND OPENING — Fort Worth Pit: 3/4\" & 1-1/2\" limestone $17.50/ton (pickup only, 500-ton min) · Ends Oct 31",
+  "states": [
+    "Texas",
+    "Arkansas",
+    "Oklahoma"
+  ],
+  "announcementExpires": "2026-10-31",
+  "logo": "/images/brand/logo.jpg"
+}

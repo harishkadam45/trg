@@ -1,0 +1,85 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: static/images/uploads
+public_folder: /images/uploads
+collections:
+  - name: settings
+    label: Business Info
+    files:
+      - label: Business info, phone, address, banner
+        name: site
+        file: data/site.json
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Short name, name: shortName, widget: string }
+          - { label: Domain, name: domain, widget: string }
+          - { label: Tagline, name: tagline, widget: string }
+          - { label: Phone (display), name: phone, widget: string }
+          - { label: Phone (international, e.g. +18174545779), name: phoneIntl, widget: string }
+          - { label: Email, name: email, widget: string }
+          - label: Address
+            name: address
+            widget: object
+            fields:
+              - { label: Street, name: street, widget: string }
+              - { label: City, name: city, widget: string }
+              - { label: State, name: state, widget: string }
+              - { label: ZIP, name: zip, widget: string }
+          - label: Map position
+            name: geo
+            widget: object
+            fields:
+              - { label: Latitude, name: lat, widget: number, value_type: float }
+              - { label: Longitude, name: lng, widget: number, value_type: float }
+          - { label: Hours text, name: hours, widget: string }
+          - label: Social links
+            name: social
+            widget: object
+            fields:
+              - { label: Instagram, name: instagram, widget: string }
+              - { label: Facebook, name: facebook, widget: string }
+          - { label: Top banner text (leave empty to hide), name: announcement, widget: string, required: false }
+          - { label: States served, name: states, widget: list, field: { label: State, name: state, widget: string } }
+      - label: Specials
+        name: specials
+        file: data/specials.json
+        fields:
+          - label: Specials
+            name: items
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: body, widget: text }
+              - { label: Button text, name: cta, widget: string }
+      - label: FAQs
+        name: faqs
+        file: data/faqs.json
+        fields:
+          - label: Questions
+            name: items
+            widget: list
+            fields:
+              - { label: Question, name: q, widget: string }
+              - { label: Answer, name: a, widget: text }
+      - label: Products
+        name: products
+        file: data/products.json
+        fields:
+          - label: Categories
+            name: categories
+            widget: list
+            fields:
+              - { label: Slug, name: slug, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Blurb, name: blurb, widget: text }
+          - label: Items
+            name: items
+            widget: list
+            fields:
+              - { label: Slug (URL), name: slug, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Category slug, name: category, widget: string }
+              - { label: Summary, name: summary, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Uses, name: uses, widget: list, field: { label: Use, name: use, widget: string } }

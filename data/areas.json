@@ -1,0 +1,162 @@
+{
+  "texas": [
+    {
+      "slug": "dallas-tx",
+      "name": "Dallas",
+      "state": "TX",
+      "note": "Our home base is on E Levee St, so Dallas, Oak Cliff, Deep Ellum and the Design District get the fastest turnaround.",
+      "near": [
+        "Irving",
+        "Garland",
+        "Mesquite",
+        "Grand Prairie"
+      ]
+    },
+    {
+      "slug": "fort-worth-tx",
+      "name": "Fort Worth",
+      "state": "TX",
+      "note": "Our new Fort Worth limestone pit carries 57 rock, 67 rock, flex base, base, 1–2\" and oversize.",
+      "near": [
+        "Arlington",
+        "Haltom City",
+        "Benbrook",
+        "Burleson"
+      ]
+    },
+    {
+      "slug": "arlington-tx",
+      "name": "Arlington",
+      "state": "TX",
+      "note": "Located between Dallas and Fort Worth, Arlington jobs are served from either yard.",
+      "near": [
+        "Grand Prairie",
+        "Mansfield",
+        "Fort Worth",
+        "Dallas"
+      ]
+    },
+    {
+      "slug": "plano-tx",
+      "name": "Plano",
+      "state": "TX",
+      "note": "Landscapers and builders across Plano order bulk rock, soil and mulch by the load.",
+      "near": [
+        "Frisco",
+        "Richardson",
+        "Allen",
+        "McKinney"
+      ]
+    },
+    {
+      "slug": "frisco-tx",
+      "name": "Frisco",
+      "state": "TX",
+      "note": "With constant new construction, Frisco crews rely on dependable base and fill delivery.",
+      "near": [
+        "Plano",
+        "McKinney",
+        "The Colony",
+        "Prosper"
+      ]
+    },
+    {
+      "slug": "mckinney-tx",
+      "name": "McKinney",
+      "state": "TX",
+      "note": "Bulk delivery for residential, ranch and commercial projects around McKinney.",
+      "near": [
+        "Frisco",
+        "Allen",
+        "Prosper",
+        "Melissa"
+      ]
+    },
+    {
+      "slug": "denton-tx",
+      "name": "Denton",
+      "state": "TX",
+      "note": "Rock, sand and soil delivered to Denton and surrounding Denton County.",
+      "near": [
+        "Lewisville",
+        "Flower Mound",
+        "Corinth",
+        "Argyle"
+      ]
+    },
+    {
+      "slug": "irving-tx",
+      "name": "Irving",
+      "state": "TX",
+      "note": "Quick delivery to Irving job sites from our Dallas yard.",
+      "near": [
+        "Dallas",
+        "Grand Prairie",
+        "Coppell",
+        "Carrollton"
+      ]
+    },
+    {
+      "slug": "garland-tx",
+      "name": "Garland",
+      "state": "TX",
+      "note": "Bulk aggregate and soil for Garland contractors and homeowners.",
+      "near": [
+        "Rowlett",
+        "Mesquite",
+        "Richardson",
+        "Dallas"
+      ]
+    },
+    {
+      "slug": "grand-prairie-tx",
+      "name": "Grand Prairie",
+      "state": "TX",
+      "note": "Centrally located between both yards for flexible scheduling.",
+      "near": [
+        "Arlington",
+        "Irving",
+        "Dallas",
+        "Cedar Hill"
+      ]
+    },
+    {
+      "slug": "mesquite-tx",
+      "name": "Mesquite",
+      "state": "TX",
+      "note": "Material for Mesquite and eastern Dallas County projects.",
+      "near": [
+        "Garland",
+        "Balch Springs",
+        "Forney",
+        "Dallas"
+      ]
+    },
+    {
+      "slug": "southlake-tx",
+      "name": "Southlake",
+      "state": "TX",
+      "note": "Decorative stone, mulch and soil for Southlake and Tarrant County landscapes.",
+      "near": [
+        "Keller",
+        "Grapevine",
+        "Colleyville",
+        "Fort Worth"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "slug": "arkansas",
+      "name": "Arkansas",
+      "state": "AR",
+      "note": "We deliver bulk aggregate into Arkansas for larger projects. Call for load minimums and freight pricing."
+    },
+    {
+      "slug": "oklahoma",
+      "name": "Oklahoma",
+      "state": "OK",
+      "note": "We deliver bulk aggregate into Oklahoma for larger projects. Call for load minimums and freight pricing."
+    }
+  ]
+}

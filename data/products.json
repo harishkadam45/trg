@@ -1,0 +1,261 @@
+{
+  "categories": [
+    {
+      "slug": "rock-gravel",
+      "name": "Rock & Gravel",
+      "blurb": "Crushed limestone, washed gravel, river rock and base material for driveways, roads, drainage and pad sites."
+    },
+    {
+      "slug": "sand",
+      "name": "Sand",
+      "blurb": "Concrete, masonry, fill and bedding sand for construction and landscape projects."
+    },
+    {
+      "slug": "soil-fill",
+      "name": "Soil & Fill",
+      "blurb": "Topsoil, fill dirt and pit run for grading, leveling and building up job sites."
+    },
+    {
+      "slug": "mulch-compost",
+      "name": "Mulch & Compost",
+      "blurb": "Bulk mulch and compost for beds, gardens and large landscape installs."
+    }
+  ],
+  "items": [
+    {
+      "slug": "crushed-limestone",
+      "name": "Premium Crushed Limestone",
+      "category": "rock-gravel",
+      "summary": "Hard-packing crushed limestone for driveways, roads and pad sites.",
+      "uses": [
+        "Driveways",
+        "Roads",
+        "Pad sites",
+        "Base under pavers and slabs"
+      ],
+      "description": "Premium crushed limestone compacts tightly and drains well, making it a go-to base for driveways, ranch roads and construction pad sites. Sold in bulk at contractor pricing across the Dallas–Fort Worth area and beyond.",
+      "image": "/images/brand/ig-1.jpg",
+      "pos": "50% 62%"
+    },
+    {
+      "slug": "flex-base",
+      "name": "Flex Base",
+      "category": "rock-gravel",
+      "summary": "Road base blend that locks together under compaction.",
+      "uses": [
+        "Road base",
+        "Parking lots",
+        "Pad sites",
+        "Driveway sub-base"
+      ],
+      "description": "Flex base is a graded crushed-stone blend with fines that binds under compaction. It is the standard sub-base for roads, lots and slabs in Texas.",
+      "image": "/images/brand/fb-cover.jpg",
+      "pos": "92% 50%"
+    },
+    {
+      "slug": "57-rock",
+      "name": "57 Rock",
+      "category": "rock-gravel",
+      "summary": "Clean 1-inch crushed limestone for drainage, concrete and driveways.",
+      "uses": [
+        "French drains",
+        "Concrete aggregate",
+        "Driveways",
+        "Pipe bedding"
+      ],
+      "description": "57 rock is a washed or crushed stone sized roughly from 1 inch down to 3/8 inch. It drains freely and is widely used in drainage, concrete mixes and driveway topping. Available at our Fort Worth limestone pit.",
+      "image": "/images/brand/fb-cover.jpg",
+      "pos": "90% 30%"
+    },
+    {
+      "slug": "67-rock",
+      "name": "67 Rock",
+      "category": "rock-gravel",
+      "summary": "Clean 3/4-inch crushed limestone for drainage, backfill and paths.",
+      "uses": [
+        "Drainage",
+        "Backfill",
+        "Walkways",
+        "Concrete aggregate"
+      ],
+      "description": "67 rock is a clean crushed stone sized roughly from 3/4 inch down to 3/8 inch. A popular choice for drainage, backfill and paths. Available at our Fort Worth limestone pit.",
+      "image": "/images/brand/fb-cover.jpg",
+      "pos": "96% 70%"
+    },
+    {
+      "slug": "base-material",
+      "name": "Base",
+      "category": "rock-gravel",
+      "summary": "Crushed limestone base for slabs, pavers and driveways.",
+      "uses": [
+        "Under slabs",
+        "Under pavers",
+        "Driveways",
+        "Parking areas"
+      ],
+      "description": "Crushed limestone base compacts into a stable, level foundation for slabs, pavers and driveways. Available at our Fort Worth limestone pit.",
+      "image": "/images/brand/ig-1.jpg",
+      "pos": "50% 75%"
+    },
+    {
+      "slug": "2-inch-oversize",
+      "name": "2\" Oversize Rock",
+      "category": "rock-gravel",
+      "summary": "Large crushed rock for rough roads, erosion control and construction entrances.",
+      "uses": [
+        "Construction entrances",
+        "Erosion control",
+        "Rough roads",
+        "Drainage"
+      ],
+      "description": "Oversize 2\" rock is used where stability and drainage matter more than a fine finish, such as construction entrances, wash-outs and temporary haul roads.",
+      "image": "/images/brand/fb-cover.jpg",
+      "pos": "55% 50%"
+    },
+    {
+      "slug": "pea-gravel",
+      "name": "Pea Gravel",
+      "category": "rock-gravel",
+      "summary": "Smooth, rounded stone for walkways, playgrounds and drainage.",
+      "uses": [
+        "Walkways",
+        "Playgrounds",
+        "Drainage trenches",
+        "Pipe bedding"
+      ],
+      "description": "Smooth pea gravel is comfortable underfoot and flows easily, which makes it popular for paths, play areas and drainage backfill.",
+      "image": "/images/brand/fb-cover.jpg",
+      "pos": "45% 85%"
+    },
+    {
+      "slug": "river-rock",
+      "name": "River Rock",
+      "category": "rock-gravel",
+      "summary": "Rounded decorative stone for beds, borders and dry creek beds.",
+      "uses": [
+        "Landscape beds",
+        "Dry creek beds",
+        "Borders",
+        "Water features"
+      ],
+      "description": "River rock adds color and texture to landscapes and holds up to weather. Ask us about available sizes and colors.",
+      "image": "/images/brand/fb-cover.jpg",
+      "pos": "8% 50%"
+    },
+    {
+      "slug": "washed-gravel",
+      "name": "Washed Gravel",
+      "category": "rock-gravel",
+      "summary": "Clean, dust-free gravel for drainage and concrete mixes.",
+      "uses": [
+        "French drains",
+        "Concrete aggregate",
+        "Decorative beds",
+        "Drainage"
+      ],
+      "description": "Washed gravel has the fines rinsed out, so it drains freely and stays clean. Common for French drains and as a concrete aggregate.",
+      "image": "/images/brand/fb-cover.jpg",
+      "pos": "20% 20%"
+    },
+    {
+      "slug": "concrete-sand",
+      "name": "Concrete Sand",
+      "category": "sand",
+      "summary": "Coarse sand for concrete mixes and paver bases.",
+      "uses": [
+        "Concrete mixes",
+        "Paver base",
+        "Bedding"
+      ],
+      "description": "Coarse concrete sand is used in concrete and as a leveling layer under pavers and flagstone."
+    },
+    {
+      "slug": "masonry-sand",
+      "name": "Masonry Sand",
+      "category": "sand",
+      "summary": "Fine sand for mortar, joints and play areas.",
+      "uses": [
+        "Mortar",
+        "Paver joints",
+        "Play areas",
+        "Horse arenas"
+      ],
+      "description": "Fine masonry sand is screened for mortar and brick work and is also used for sandboxes, arenas and joint fill."
+    },
+    {
+      "slug": "fill-sand",
+      "name": "Fill Sand",
+      "category": "sand",
+      "summary": "Economical sand for backfill and leveling.",
+      "uses": [
+        "Backfill",
+        "Leveling",
+        "Trench fill"
+      ],
+      "description": "General-purpose fill sand for backfilling trenches, raising low spots and general site work."
+    },
+    {
+      "slug": "topsoil",
+      "name": "Topsoil",
+      "category": "soil-fill",
+      "summary": "Screened topsoil for lawns, gardens and grading.",
+      "uses": [
+        "Lawns",
+        "Gardens",
+        "Raised beds",
+        "Grading"
+      ],
+      "description": "Screened topsoil gives new lawns and planting beds a fertile base. Delivered in bulk by the load."
+    },
+    {
+      "slug": "fill-dirt",
+      "name": "Fill Dirt",
+      "category": "soil-fill",
+      "summary": "Structural and general fill for leveling and building up sites.",
+      "uses": [
+        "Leveling",
+        "Building pads",
+        "Raising grade",
+        "Backfill"
+      ],
+      "description": "Fill dirt for raising grade, filling low areas and building up pads. Call to confirm what is available at the pit nearest you."
+    },
+    {
+      "slug": "pit-run",
+      "name": "Pit Run",
+      "category": "soil-fill",
+      "summary": "Unscreened mix of gravel, sand and fines straight from the pit.",
+      "uses": [
+        "Rough fill",
+        "Haul roads",
+        "Sub-base"
+      ],
+      "description": "Pit run is an economical mix of rock, sand and fines used as rough fill and temporary road surfacing."
+    },
+    {
+      "slug": "bulk-mulch",
+      "name": "Bulk Mulch",
+      "category": "mulch-compost",
+      "summary": "Shredded hardwood and colored mulch by the cubic yard.",
+      "uses": [
+        "Landscape beds",
+        "Trees",
+        "Playgrounds",
+        "Weed suppression"
+      ],
+      "description": "Bulk mulch saves money on large beds and commercial landscape installs. Ask what colors and blends are in stock."
+    },
+    {
+      "slug": "compost",
+      "name": "Compost",
+      "category": "mulch-compost",
+      "summary": "Rich organic compost to improve soil structure.",
+      "uses": [
+        "Garden beds",
+        "Lawn top-dressing",
+        "Soil amendment"
+      ],
+      "description": "Organic compost adds nutrients and improves drainage in clay-heavy North Texas soils."
+    }
+  ]
+}
