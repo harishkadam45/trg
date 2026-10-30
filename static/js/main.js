@@ -44,3 +44,32 @@
     });
   }
 })();
+
+// Forms: work on any static host (Vercel, Netlify, Cloudflare).
+// If <meta name="form-endpoint"> is set (Formspree, Web3Forms, etc.) the form is POSTed there as JSON.
+// Otherwise it opens a pre-filled email to the business so no request is lost.
+(function () {
+  var meta = function (n) { var m = document.querySelector('meta[name="' + n + '"]'); return m ? m.content : ''; };
+  var endpoint = meta('form-endpoint'), email = meta('form-email');
+  document.querySelectorAll('form[name]').forEach(function (form) {
+    if (form.id === 'calc') return;
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var data = {}; new FormData(form).forEach(function (v, k) { data[k] = v; });
+      if (data['bot-field']) return; // honeypot
+      delete data['bot-field']; delete data['form-name'];
+      var btn = form.querySelector('button[type=submit]'); if (btn) { btn.disabled = true; btn.textContent = 'Sending...'; }
+      var done = function () { location.href = '/thank-you/'; };
+      if (endpoint) {
+        data._subject = 'Website ' + form.getAttribute('name') + ' request';
+        fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(data) })
+          .then(function (r) { if (!r.ok) throw new Error(r.status); done(); })
+          .catch(function () { if (btn) { btn.disabled = false; btn.textContent = 'Try again'; } alert('Sorry, that did not send. Please call 817-454-5779.'); });
+      } else {
+        var body = Object.keys(data).filter(function (k) { return data[k]; }).map(function (k) { return k + ': ' + data[k]; }).join('\n');
+        location.href = 'mailto:' + email + '?subject=' + encodeURIComponent('Website ' + form.getAttribute('name') + ' request') + '&body=' + encodeURIComponent(body);
+        setTimeout(done, 800);
+      }
+    });
+  });
+})();

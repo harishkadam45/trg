@@ -28,5 +28,6 @@
     "Oklahoma"
   ],
   "announcementExpires": "2026-10-31",
-  "logo": "/images/brand/logo.jpg"
+  "logo": "/images/brand/logo.jpg",
+  "formEndpoint": ""
 }

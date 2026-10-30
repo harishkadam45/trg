@@ -85,6 +85,7 @@ function layout({ path, title, desc, body, schema = [], trail = [], robots = 'in
 <meta name="robots" content="${robots},max-image-preview:large,max-snippet:-1">
 <link rel="canonical" href="${canonical}">
 <meta name="theme-color" content="#111111">
+<meta name="form-endpoint" content="${esc(site.formEndpoint || '')}"><meta name="form-email" content="${esc(site.email)}">
 <meta name="geo.region" content="US-TX"><meta name="geo.placename" content="Dallas"><meta name="geo.position" content="${site.geo.lat};${site.geo.lng}"><meta name="ICBM" content="${site.geo.lat}, ${site.geo.lng}">
 <meta property="og:type" content="${ogType}"><meta property="og:site_name" content="${esc(site.name)}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${url(OG)}"><meta property="og:image:width" content="640"><meta property="og:image:height" content="640"><meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${url(OG)}"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}">

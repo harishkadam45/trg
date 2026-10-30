@@ -54,15 +54,19 @@ Without the CMS: edit the JSON files in `data/`, then rebuild.
 - `data/faqs.json` - frequently asked questions
 - `data/specials.json` - specials (add `"expires": "YYYY-MM-DD"` to hide an offer automatically)
 
-With the CMS: log in at `/admin/` after enabling Netlify Identity and Git Gateway.
+With the CMS: log in at `/admin/` (Netlify hosting with Identity and Git Gateway enabled).
 
-## Deploy (Netlify or Cloudflare Pages)
+## Deploy
 
-1. Import this repository. Build command: `node build.mjs`. Publish directory: `dist` (already set in `netlify.toml`).
+### Vercel (config included in `vercel.json`)
+1. Import this repository. Vercel reads `vercel.json`: build command `node build.mjs`, output directory `dist`.
 2. Add the domain `therockguytx.com`. The client keeps ownership of the registrar and hosting accounts.
-3. Enable **Forms** so quote requests arrive in Netlify Forms, and add an email notification to Sales@TheRockGuyTx.com.
-4. Enable **Identity** and **Git Gateway** so staff can edit content at `/admin/`.
-5. Because specials can expire, rebuild the site after an offer's end date (a scheduled daily build hook works well).
+3. Quote and contact forms: by default they open a pre-filled email to Sales@TheRockGuyTx.com. For in-page submission with no mail app, create a free form endpoint (Formspree or Web3Forms) and put its URL in `formEndpoint` in `data/site.json`.
+4. Specials can expire, so rebuild after an offer's end date (a Vercel Deploy Hook plus a daily scheduled call works well).
+5. The `/admin/` CMS uses Netlify Identity and Git Gateway, so it works on Netlify only. On Vercel, edit the JSON files in `data/` or switch the CMS backend to GitHub with an OAuth proxy.
+
+### Netlify (config included in `netlify.toml`)
+Same build settings. Enable Forms, Identity and Git Gateway to use the `/admin/` editor.
 
 ## Before launch checklist
 
